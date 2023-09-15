@@ -7,7 +7,7 @@ body{
 
 
 .title-container{
-    height: 1000px;
+    height: 700px;
     background-color: #222831;
     display: flex;
     align-items: center;
@@ -19,25 +19,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
 }
 .profile-img{
-    height: 750px;
+    height: 550px;
 }
 .title-text{
-    width: 800px;
+    width: 600px;
 }
 .title-text > h1{
     color: #EEEEEE;
     font-family: 'Lobster', cursive;
-    font-size: 100px;
+    font-size: 80px;
     margin-bottom: 10px;
     margin-top: 0px;
 }
 .title-text > h3{
     color: #EEEEEE;
     font-family: 'Teko', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
@@ -46,14 +46,14 @@ body{
 .about-me-container{
     text-align: center;
     margin: auto;
-    max-width: 1800px; 
+    max-width: 1400px; 
     margin-bottom: 100px;
 }
 .about-me{
-    margin-top: 100px;    
+    margin-top: 80px;    
 }
 .about-me > h1{
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Teko', sans-serif;
     /* font-family: 'Ubuntu Mono', monospace; */
     display: inline;
@@ -63,22 +63,22 @@ body{
     font-family: 'Ubuntu Mono', monospace;
 }
 .about-me p{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
     margin-top: 0;
 }
 .about-me a{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration-line: none;
     color: #222831;
 }
 
 
 .skill-container{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .skill-container h1{
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Teko', sans-serif;
     /* font-family: 'Ubuntu Mono', monospace; */
     text-align: center;
@@ -93,7 +93,7 @@ body{
 }
 .card{
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 350px;
     border-radius: 18px;
     background:#393E46;
     font-family: roboto;
@@ -107,8 +107,8 @@ body{
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 .card-image{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     grid-row-end: 1;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -116,7 +116,7 @@ body{
     background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("img1.jpg");
 }
 .card-text{
-    height: 200px;
+    height: 170px;
     grid-row-start: 1;
     margin: 25px;
     margin-bottom: 0;
@@ -124,12 +124,12 @@ body{
 .card-text h2{
     color: #00ADB5;
     margin-top:0px;
-    font-size:28px;
+    font-size:20px;
     margin-bottom: 0;
 }
 .card-text p{
     color: #DDE6ED;
-    font-size:21px;
+    font-size:18px;
     font-weight: 300;
     margin-top: 12px;
     font-family: 'Poppins', sans-serif;
@@ -138,18 +138,18 @@ body{
 
 
 .contact-me{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     text-align: center;
 }
 .contact-me h1{
     color: #00ADB5;
     font-family: 'Teko', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 0;
 }
 .contact-me h2{
     font-family: 'Teko', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     margin-top: 0;
 }
@@ -165,7 +165,7 @@ body{
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
@@ -182,7 +182,7 @@ body{
     font-family: "Montserrat", sans-serif;
     margin: 10px 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     transition: 0.5s ease;
     cursor: pointer;
 }
@@ -198,6 +198,7 @@ body{
 }
 .bottom-container p{
     display: block;
+    font-size: 15px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
